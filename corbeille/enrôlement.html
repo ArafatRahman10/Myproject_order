@@ -1,0 +1,140 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" >
+        <title>E.Card</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="../style/Enrôlement.css">
+        <link rel="shortcut icon" href ="logo.png">
+        <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <form action="connexion.php" method="post">
+            <fieldset>
+                <h3 class="rep"> REPUBLIQUE DU CAMEROUN  </h3> <br>
+                <h3 class="repp"> Paix-Travail-Patrie     </h3> <br>
+                <h3 class="fot">     --------  </h3> <br>
+                <h3  style=" position: relative;   font-size: 12px; bottom: 130px; "> DELEGATION REGIONALE A LA SURETE NATIONALE  </h3> <br> 
+                <h3 style=" font-size: 12px; font-family: sans-serif;text-align: right;position:relative;bottom:240px;margin-right: 30px;"> REPUBLIC OF CAMEROON </h3> <br>
+                <h3 style="  font-size: 10px; margin-top:0%; margin-right: 55px; text-align: right;position: relative; bottom: 270PX;" > Peace-Work-Fatherland     </h3> <br>
+                <h3 style="  position: relative; bottom: 320px;text-align: right;margin-right: 70px;">     --------  </h3> <br> 
+                <h3  style=" position: relative;  bottom:370px; text-align: right; font-size: 12px; "> GENERAL DELEGATION FOR NATIONAL SECURITY  </h3> <br>  
+                <img style="position: relative;bottom: 460px;left: 390px;height: 90px;width: 90px;" src="logo_police.png" alt ="embleme">
+                <h3 style="  position: relative; bottom: 500px;text-align: right;margin-right: 70px;">     --------  </h3> <br> 
+                <h3 style="  position: relative; bottom: 580px;text-align: left;margin-left: 70px;">     --------  </h3> <br> 
+                <div class="import"> 
+                    <P style=" position: relative; top: 60px;text-align: center;font-weight: bold;">photos</P> 
+                    <input type="file" name="image_citoyen" style="position:relative;left: 15px;" > 
+                </div>
+                <h3 style="position: relative;bottom: 650px;left: 220px;font-family: sans-serif;color: #000;font-weight: bold;"> Information de la demande </h3>
+                <p style=" position: relative; bottom: 650px;font-family: sans-serif; left: 220px; line-height: 55px; ">Type de demande<br></p>
+                <p style=" position: relative; bottom: 695px;font-family: sans-serif; left: 420px; "> CNI-Carte Nationale d'identité <br></p>
+                <h3 style="position: relative;bottom: 550px;left: 40px;font-family: sans-serif;font-weight: bold;color: #000;"> Détails du citoyen </h3>
+                <B style="position: relative;left: 100px;bottom: 500px;">Nom:</B><input type="text" name="nom_citoyen" style="position: relative;left: 105px;bottom: 500px;">
+                <B style="position: relative;right: 150px;bottom: 450px;">Prénoms:</B><input type="text" name="prenom_citoyen" value="" style="position: relative;right: 140px;bottom: 450px;">
+                <B style="position: relative;bottom: 400px ;right: 370px;">Sexe:</B>
+                <B style="position: relative;bottom: 400px ;right: 350px;">M</B>
+                <input type="radio" name="sexe" value="1" style="position: relative;bottom: 400px ;right: 350px;">
+                <B style="position: relative;bottom: 400px ;right: 350px;">F</B>
+                <input type="radio" name="sexe" value="1" style="position: relative;bottom: 400px ;right: 350px;">
+                <B style="position: relative;right: 210px;bottom: 500px;">profession:</B><input type="text" name="profession_citoyen" value="" style="position: relative;right:200px;bottom: 500px;">
+                <B style="position: relative;left: 360px;bottom: 475px;"> Date de naissance:</B><input type="date" name="date_naissance" value="" style="position: relative;left: 370px;bottom: 475px;width: 180px;">
+                <B style="position: relative;left: 60px;bottom: 430px;"> lieu de naissance:</B><input type="text" name="lieu_naissance" value="" style="position: relative;right: -70px;bottom: 435px;">
+                <B style="position: relative;right: 490px;bottom: 380px;"> Département:</B>
+                <select name="departement" value="" style="position: relative;right: 490px;bottom: 380px;width: 175px;width: 160px;">
+                    <option value="1">Djérem</option>
+                    <option value="2">Faro -et-Déro</option>
+                    <option value="3">Mayo-Banyo</option>
+                    <option value="4">Mbéré</option>
+                    <option value="5">Vina</option>
+                    <option value="6">Haute-Sanaga</option>
+                    <option value="7">Lekié</option>
+                    <option value="8">Mbam-et-Inoubou</option>
+                    <option value="9">Mbam-et-Kim</option>
+                    <option value="10">Méfou-et-Afamba</option>
+                    <option value="11">Méfou-et-Akono</option>
+                    <option value="12">Mfoundi</option>
+                    <option value="13">Nyong-et-Kellé</option>
+                    <option value="14">Nyong-et-Mfoumou</option>
+                    <option value="15">Nyong-et-So'o</option>
+                    <option value="16">Boumba-et-Ngoko</option>
+                    <option value="18">Kadey</option>
+                    <option value="19">Lom-et-Djerem</option>
+                    <option value=20">Diamaré</option>
+                    <option value="21">Logone-et-chari</option>
+                    <option value="22">Mayo-Danay</option>
+                    <option value="23">Mayo-Kani</option>
+                    <option value="24">Mayo-Sava</option>
+                    <option value="25">Mayo-Tsanaga</option>
+                    <option value="26">Moungo</option>
+                    <option value="27">Nkam</option>
+                    <option value="28">Sanaga-Maitime</option>
+                    <option value="29">Wouri</option>
+                    <option value="30">Bénoué</option>
+                    <option value="31">Faro</option>
+                    <option value="32">Mayo-Louti</option>
+                    <option value="33">Mayo-Rey</option>
+                    <option value="34">Boyo</option>
+                    <option value="35">Bui</option>
+                    <option value="36">Donga-Mantung</option>
+                    <option value="37">Menchum</option>
+                    <option value="38">Mezam</option>
+                    <option value="39">Momo</option>
+                    <option value="40">Ngo-Ketunjia</option>
+                    <option value="41">Bamboutos</option>
+                    <option value="42">Haut-NKam</option>
+                    <option value="43">Hauts-Plateaux</option>
+                    <option value="44">koung-khi</option>
+                    <option value="45">Menoua</option>
+                    <option value="46">Mifi</option>
+                    <option value="47">Ndé</option>
+                    <option value="48">Noun</option>
+                    <option value="49">Dja-et-Lobo</option>
+                    <option value="50">Mvila</option>
+                    <option value="52">Océan</option>
+                    <option value="53">Vallée-du-Ntem</option>
+                    <option value="54">Fako</option>
+                    <option value="55">Koupé-Manengouba</option>
+                    <option value="56">Lebialem</option>
+                    <option value="57">Manyu</option>
+                    <option value="58">Meme</option>
+                    <option value="59">Ndian</option>
+                </select>   
+                <B style="position: relative;right:450px;bottom: 380px;"> Téléphone:</B><input type="tel" name="telephone" value="" style="position: relative;left:450px;bottom: 405px;width: 175px;">
+                <B style="position: relative;bottom: 350px;right: 80px;"> email:</B><input type="email" name="email" value="" style="position: relative;right:70px;bottom: 350px;width: 175px;">
+                <h3 style="position: relative;bottom: 300px;left: 40px;font-family: sans-serif;font-weight: bold;color: #000;">Signalement</h3>
+                <B style="position: relative;bottom: 280px;left: 100px;">Teint:</B>
+                <select type="text" name="teint" value="" style="position: relative;left: 120px;bottom: 280px;width: 160px;">
+                    <option value="">NOIR</option>
+                    <option value="">CHOCOLAT</option>
+                    <option value="">BRUN</option>
+                </select>
+                <B style="position: relative;bottom: 230px;right: 100px;"> Taille:</B><input type="text" name="taille" value="" style="position: relative;right: 90px;bottom: 230px;">
+                <B style="position: relative;bottom: 280px;right: 60px;"> Groupe ethnique:</B><input type="text" name="groupe_ethnique" value="" style="position: relative;bottom: 280px;right: 50px;">
+                <h3 style="position:relative;left: 40px;font-family: sans-serif;font-weight: bold;color: #000;bottom: 200px;">Parents</h3>
+                <B style="position: relative;left: 100px;bottom: 180px;"> Noms du père:</B><input type="text" name="nom_pere" value="" style="position: relative;left: 110px;bottom: 180px;;">
+                <B style="position: relative;left: -180px;bottom: 130px;"> profession:</B><input type="text" name="profession_pere" value="" style="position: relative;left: -170px;bottom: 130px;">
+                <B style="position: relative;right: 100px;bottom: 180px;"> Noms de la mère:</B><input type="text" name="nom_mere" value="" style="position: relative;right: 90px;bottom: 180px;">
+                <B style="position: relative;left: -395px;bottom: 130px;"> profession:</B><input type="text" name="profession_mere" value="" style="position: relative;left: 530px;bottom: 155px;">
+                <h3 style="font-family: sans-serif;font-weight: bold;color: #000;position: relative;bottom: 120px;left: 40px;">Pièces jointes</h3>
+                <div class="certificate"> 
+                    <P style=" position: relative; top: 80px;text-align: center;font-weight: bold;">Certificat de nationalité</P> 
+                    <input type="file" name="image_certificat_nationalite" style="position:relative;left: 15px;" > 
+                </div>
+                <div class="birth"> 
+                    <P style=" position: relative; top: 80px;text-align: center;font-weight: bold;">Acte de naissance</P> 
+                    <input type="file" name="image_acte_naissance" style="position:relative;left: 15px;top: 20px;" > 
+                </div>
+                <input type="submit" name="Envoy" value="envoyer" style="width: 100px;font-weight: bolder;color: #000;position: relative;bottom: 150px;left: 300px;">
+                <Button type="reset" name="" style="width: 100px;font-weight: bolder;color: #000;position: relative;bottom: 150px;left: 400px;">
+                    Réinitialiser
+                </Button> 
+               
+            </fieldset>
+        </form>
+        <img class="first" src="emblème_Cameroun.png" alt ="natinoal athem">
+        <img class="second" src="emblème_Cameroun.png" alt ="natinoal athem">
+    </body>
+</html>

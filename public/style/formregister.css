@@ -1,0 +1,93 @@
+
+        * {
+        box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color:#17f;
+            
+        }
+
+        #regForm {
+            background-color: #fff;
+            padding: 10px;
+            display:flex;
+            flex-direction: column;
+            width: 400px;
+            border-radius:  6px;
+        }
+
+        h3 {
+        text-align: center;  
+        font-family: sans-serif;
+        position: relative;
+        bottom: 5px;
+        font-weight: bold;
+        }
+
+        h4{
+            margin-bottom: 15px;
+        }
+        input {
+            margin: 5px 0;
+            padding: 5px 5px;
+            outline: 0;
+            border: 1px solid#000;
+            border-radius:  6px;
+        }
+
+        /* Marquer les deux champs de saisies qui obtienent une erreur lors de la  validation:  */
+        input.invalid {
+        background-color: #ffdddd;
+        }
+        
+
+        /* cacher tout les étapes par défaut: */
+        .tab {
+        display: none;
+        }
+
+        button {
+        background-color: #04AA6D;
+        color: #ffffff;
+        border: none;
+        padding: 10px 20px;
+        font-size: 17px;
+        font-family: Raleway;
+        cursor: pointer;
+        }
+
+        button:hover {
+        opacity: 0.8;
+        }
+
+        #prevBtn {
+        background-color: #bbbbbb;
+        margin-top: 10px;
+        }
+
+        /* faites des étapes des cercles qui indiquent les étapes du formulaires: */
+        .step {
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbbbbb;
+        border: none;  
+        border-radius: 50%;
+        display: inline-block;
+        opacity: 0.5;
+        }
+
+        .step.active {
+        opacity: 1;
+        }
+
+        /* Marques les étapes terminées et validées: */
+        .step.finish {
+        background-color: #04AA6D;
+        }
+    
