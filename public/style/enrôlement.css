@@ -1,0 +1,77 @@
+form{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	display: block;
+	padding: 100px;
+    padding-left: 200px;
+    padding-right: 200px; 
+}
+fieldset{
+	padding: 5px;
+	border-radius:0%;
+	border: 1px solid #000;
+    height: 1650px;
+}
+.rep{
+    font-size: 12px;
+    font-family: sans-serif;
+    margin-left: 30px;
+}
+
+.repp{
+    font-size: 10px;
+    font-family:sans-serif;
+    margin-top:0%;
+    margin-left: 55px;
+    position: relative;
+    bottom: 30PX;
+}
+.fot{
+    position: relative;
+    bottom: 80px; 
+    margin-left: 70px;
+}
+.import{
+    width: 150px;
+    height:150px;
+    border: 2px solid;
+    position: relative;
+    bottom: 540px;
+    text-transform:capitalize;
+    text-align: center;
+    left: 40px;
+}
+.certificate{
+    width: 150px;
+    height:150px;
+    border: 1px solid;
+    position: relative;
+    bottom: 100px;
+    text-align: center;
+    left: 110px;
+}
+.birth{
+    width: 150px;
+    height:150px;
+    border: 1px solid;
+    position: relative;
+    bottom: 245px;
+    text-align: center;
+    left: 470px;
+}
+.first{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 20px;
+    bottom: 350pt;
+}
+
+.second{
+    width: 100px; 
+    height: 100px;
+    position: absolute; 
+    right: 20px; 
+    bottom: 350pt;
+}

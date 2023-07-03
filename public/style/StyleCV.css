@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+    font-family: 'Trebuchet Ms','Lucida sans unicode','lucida Grande','Lucida Sans','Arial','Sans Serif';
+}
+.container{ 
+       display: flex;  
+       flex-direction: row;  
+ }   
+  .leftside{
+    height: auto; 
+    width: 300px; 
+    background-color: #111;  
+     color: white;  
+ }     
+
+  .rightside {
+    padding-left: 20px; 
+  }
+  .divphoto{   
+    padding-left: 20px;  
+    padding-top: 10px;  
+    padding-bottom: 10px; 
+  }
+  .tableauPI{
+      text-align: right;
+} 
+h4{
+  font-size: 25px;     
+  font-weight: normal;
+} 
+.namePI{   
+    height: 50px;     
+    color: rgb(0, 195, 255);  
+    vertical-align: middle; 
+    line-height: 50px; 
+}
+.tableauPI, .tableauCPro{    
+     width: 100%;   
+    text-align: right;
+}
+.namePI, .nameCPro{    
+    height: 50px; 
+    color: rgb(0, 195, 255);   
+    vertical-align: middle; 
+    line-height: 50px; 
+}
+.namePI{    
+   height: 50px;   
+   color: rgb(0, 195, 255);   
+   vertical-align: middle;     
+   line-height: 50px;
+ } 
+ .nameCPro{   
+    height: 50px;  
+    background-color: white;    
+    color: rgb(0, 195, 255); 
+    vertical-align: middle; 
+    line-height: 50px;  
+ } 
+ .divCPro{  
+    background-color: rgb(53, 53, 54); 
+} 
+.nameRef01, .nameRef02{
+       font-size: 20px;  
+       font-weight: normal;   
+} 
+ 
+    .titreRef{     
+        font-size: 12px;    
+        font-weight: normal;    
+        color: rgb(185, 185, 185); 
+} 
+
+     .structureRef{
+       font-size: 14px;      
+       font-weight: bold;    
+} 
+
+     .t{      
+        font-size: 16px;     
+        font-weight: bold;  
+} 
+
+    .contact{
+       font-size: 14px;   
+       font-weight: normal;    
+       color: rgb(185, 185, 185);   
+}
+.rightside {   
+    padding-left: 20px; 
+    width: 100%;
+} 
+ 
+ .nomdiv{ 
+  font-size: 60px;
+  font-weight: normal;   
+  padding-top: 30px; 
+} 
+
+     .nom{   
+       font-weight: bold;   
+ } 
+
+  .specialite{   
+      background-color: #111;  
+      color: white;     width: 90%;  
+     height: auto;  
+     font-size: 30px;  
+     padding-left: 10px;  
+} 
+
+.objectif{  
+     margin-top: 50px;  
+} 
+
+    .titreRightSide{   
+    font-size: 25px;   
+    font-weight: normal; 
+    width: 90%;    
+    margin-bottom: 25px;  
+} 
+ 
+   .contenuObj{  
+      width: 90%;  
+      color: rgb(75, 75, 75);
+}
+     .blocObjectif, .blocEducation, .blocExperiencePro{   
+         margin-top: 50px;
+}    .colonne2 {  
+   padding-top: 10px;  
+   padding-bottom: 10px;
+} .colonne1 {  
+   width: 150px; 
+   text-align: left;
+ } 
+ 
+.etablissement, .structureExperiencePro{  
+     font-size: 14px; 
+     font-weight: normal;
+     color: rgb(105, 105, 105); 
+} 
+ 
+ .competenceEd, .competenceExperiencePro{ 
+     font-size: 16px;   
+     font-weight: normal; 
+     color: rgb(105, 105, 105);
+ } 
+ 
+.diplomeEd, .posteExperiencePro{ 
+   font-size: 16px;  
+   font-weight: normal;  
+   color:rgb(10, 200, 250)
+} 
+ 
+ 
+ 
+ 
